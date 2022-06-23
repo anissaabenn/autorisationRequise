@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" size="16x16"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF7Rwtq7B2mxyeUEi3U0IPm5hoAUjy1Qb74Y2zB2L5y5kg95NjuUFyWH-bgCkPR_8TJFM&usqp=CAU">
+    <title>Campagne électoral</title>
+    <script>
+        function check(){
+            var nbr;
+            nbr = Number(document.getElementById("age").value);
+            if(nbr < 18)
+            {
+               alert("Vous n'êtes pas un adulte");
+            }
+            else
+            {
+               alert("Vous êtes un adulte");
+            }
+        }
+     </script>
+</head>
+<body>
+    <div class="formulaire1">Entrez votre age: <input id="age">
+    <button onclick="check()">Vérifier</button></div>
+    <script src="style2.js"></script>
+</body>
+</html>

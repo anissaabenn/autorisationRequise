@@ -1,0 +1,16 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulaire1 {
+    border: 5px solid rgb(48, 78, 216);
+    border-radius: 1em;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(98, 69, 230);
+}
